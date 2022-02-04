@@ -11,7 +11,7 @@ export default function App() {
 
   // fetch the JSON inside React hook useEffect(callbackFunction, dependencyArray)
   useEffect(() => {
-    fetch("https://us-central1-dadsofunny.cloudfunctions.net/DadJokes/random/jokes")
+    fetch("")
       .then((res) => res.json())
       .then((joke) =>
         setJoke({
